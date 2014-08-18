@@ -14,7 +14,7 @@ FireCtrl = ( $sce, $scope, $interval ) ->
     enterCenterJitter: 10
     min: 0
     currentNode: 0
-    headLabel: 'Play'
+    headLabel: 'fa-play'
     currentTs: undefined
     sliderReset: true
     radiusMeasure: 7
@@ -24,7 +24,8 @@ FireCtrl = ( $sce, $scope, $interval ) ->
       linkDistance: (l) ->
         l.linkDistance or 200
 
-  $scope.message = $sce.trustAsHtml('Press <b><em>Play</em></b> on left to start the visualization.')
+  $scope.message = $sce.trustAsHtml('Press <b><em>Play</em></b> and <b><em>Pause</em></b> controls on left to start and stop,
+    or you may scrub the visualization using the <b><em>Slider</em></b>.')
 
   $scope.hovered = (d) ->
     if d is 'leave'
@@ -46,7 +47,7 @@ FireCtrl = ( $sce, $scope, $interval ) ->
     if angular.isDefined(timer)
       $scope.pauseSlider()
     else
-      $scope.options.headLabel = 'Pause'
+      $scope.options.headLabel = 'fa-pause'
       forward = true
       curVal = undefined
       dir = 1
@@ -64,7 +65,7 @@ FireCtrl = ( $sce, $scope, $interval ) ->
   $scope.pauseSlider = ->
     if angular.isDefined(timer)
       $interval.cancel timer
-      $scope.options.headLabel = 'Play'
+      $scope.options.headLabel = 'fa-play'
       timer = `undefined`
 
   $scope.$on "$destroy", ->
