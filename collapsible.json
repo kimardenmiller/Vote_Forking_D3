@@ -1,0 +1,184 @@
+{
+    "name": "Voting",
+    "type": "hub",
+    "children": [
+        {
+            "name": "Topic A",
+            "type": "topic",
+            "text": "Sale of postoffice should be restricted to low-income housing uses that balance other needs and some commercial use.",
+            "children": [
+                {
+                    "name": "Prop 1",
+                    "type": "proposal",
+                    "text": "Sale of postoffice should be restricted to low-density uses that do not negatively impact existing parking challenges, e.g. a city park.",
+                    "children": [
+                        {"name": "elle.javadi", "size": 3534},
+                        {"name": "hannahymiller", "size": 5731},
+                        {"name": "websandrew", "size": 5731},
+                        {"name": "pratik.khadloya.5", "size": 3938},
+                        {"name": "Go.Leith", "size": 3938},
+                        {"name": "vintimahi", "size": 743}
+                    ]
+                },
+                {
+                    "name": "Prop 2",
+                    "type": "proposal",
+                    "text": "Sale of postoffice should be restricted to low-density uses that exclude housing and balance other needs.",
+                    "children": [
+                        {"name": "elle.javadi", "size": 3534},
+                        {"name": "hannahymiller", "size": 5731},
+                        {"name": "pratik.khadloya.5", "size": 3938},
+                        {"name": "Go.Leith", "size": 3938},
+                        {"name": "vintimahi", "size": 743},
+                        {"name": "jkhaykin", "size": 3416}
+                    ]
+                },
+                {
+                    "name": "Prop 3",
+                    "type": "proposal",
+                    "text": "Sale of postoffice should be restricted to low-income housing uses that balance other needs and some commercial use.",
+                    "children": [
+                        {"name": "elle.javadi", "size": 3534},
+                        {"name": "hannahymiller", "size": 5731},
+                        {"name": "websandrew", "size": 5731},
+                        {"name": "pratik.khadloya.5", "size": 3938},
+                        {"name": "vintimahi", "size": 743},
+                        {"name": "eli.miller.16144", "size": 7074}
+                    ]
+                }
+            ]
+        },
+
+        {
+            "name": "Topic B",
+            "type": "topic",
+            "text": "We need real election reform based on public funding of political campaigns, the elimination of political primaries, and ranked order voting.",
+            "children": [
+                {
+                    "name": "Prop 4",
+                    "type": "proposal",
+                    "text": "We need real election reform based on the elimination of political primaries, and ranked order voting.",
+                    "children": [
+                        {"name": "Go.Leith", "size": 3938},
+                        {"name": "vintimahi", "size": 743},
+                        {"name": "pratik.khadloya.5", "size": 3938},
+                        {"name": "websandrew", "size": 5731},
+                        {"name": "philipp.pahl.75", "size": 1983},
+                        {"name": "hannahymiller", "size": 2042}
+                    ]
+                },
+                {
+                    "name": "Prop 4",
+                    "type": "proposal",
+                    "text": "We need real election reform based on public funding of political campaigns, the elimination of political primaries, and ranked order voting.",
+                    "children": [
+                        {"name": "Go.Leith", "size": 3938},
+                        {"name": "websandrew", "size": 5731},
+                        {"name": "philipp.pahl.75", "size": 1983},
+                        {"name": "hannahymiller", "size": 2042}
+                    ]
+                }
+            ]
+        },
+
+        {
+            "name": "Topic C",
+            "type": "topic",
+            "text": "Users should always have to explain why they support a proposal.",
+            "children": [
+                {
+                    "name": "Prop 5",
+                    "type": "proposal",
+                    "text": "Users should be able to vote without explaining why they support a proposal.",
+                    "children": [
+                        {"name": "gborchardt1", "size": 593},
+                        {"name": "eli.miller.16144", "size": 277},
+                        {"name": "websandrew", "size": 5731},
+                        {"name": "hannahymiller", "size": 264},
+                        {"name": "philipp.pahl.75", "size": 593},
+                        {"name": "john.bodeau", "size": 277},
+                        {"name": "david.harris.798278", "size": 264}
+                    ]
+                },
+                {
+                    "name": "Prop 6",
+                    "type": "proposal",
+                    "text": "Users should always have to explain why they support a proposal.",
+                    "children": [
+                        {"name": "philipp.pahl.75", "size": 593},
+                        {"name": "Go.Leith", "size": 3938},
+                        {"name": "websandrew", "size": 5731},
+                        {"name": "john.bodeau", "size": 277},
+                        {"name": "david.harris.798278", "size": 264}
+                    ]
+                }
+            ]
+        },
+
+        {
+            "name": "Topic D",
+            "type": "topic",
+            "text": "Respect each other's time. Attend all team functions unless you give advance notice.",
+            "children": [
+                {
+                    "name": "Prop 7",
+                    "type": "proposal",
+                    "text": "Respect each other's time by arriving early to meetings, or call/text ahead. Attend all team functions unless you give advance notice.",
+                    "children": [
+                        {"name": "jkhaykin", "size": 593},
+                        {"name": "gborchardt1", "size": 277},
+                        {"name": "hannahymiller", "size": 264},
+                        {"name": "pratik.khadloya.5", "size": 1983},
+                        {"name": "david.harris.798278", "size": 2042}
+                    ]
+                },
+                {
+                    "name": "Prop 8",
+                    "type": "proposal",
+                    "text": "Respect each other's time. Attend all team functions unless you give advance notice.",
+                    "children": [
+                        {"name": "pratik.khadloya.5", "size": 1983},
+                        {"name": "websandrew", "size": 5731},
+                        {"name": "Go.Leith", "size": 3938},
+                        {"name": "david.harris.798278", "size": 2042}
+                    ]
+                }
+            ]
+        },
+
+        {
+            "name": "Topic F",
+            "type": "topic",
+            "text": "Kids should be forced to eat anything they say they want to eat.",
+            "children": [
+                {
+                    "name": "Prop 9",
+                    "type": "proposal",
+                    "text": "Kids should never be forced to eat anything they don't want to eat.  However, to help them make healthy choices, sometimes they should be offered 'nothing' as the alternative to a healthy choice.",
+                    "children": [
+                        {"name": "philipp.pahl.75", "size": 1302},
+                        {"name": "websandrew", "size": 5731},
+                        {"name": "Go.Leith", "size": 3938},
+                        {"name": "jkhaykin", "size": 6703}
+                    ]
+                },
+                {
+                    "name": "Prop 10",
+                    "type": "proposal",
+                    "text": "Kids should be forced to eat anything they say they want to eat.",
+                    "children": [
+                        {"name": "gborchardt1", "size": 1983},
+                        {"name": "hannahymiller", "size": 2042},
+                        {"name": "jkhaykin", "size": 593},
+                        {"name": "Go.Leith", "size": 3938},
+                        {"name": "gborchardt1", "size": 277},
+                        {"name": "hannahymiller", "size": 264},
+                        {"name": "websandrew", "size": 5731},
+                        {"name": "pratik.khadloya.5", "size": 1983},
+                        {"name": "david.harris.798278", "size": 2042}
+                    ]
+                }
+            ]
+        }
+    ]
+}

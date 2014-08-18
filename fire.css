@@ -1,0 +1,82 @@
+
+.hub, .topic, .proposal {
+    cursor: pointer;
+    stroke-width: 1.5px;
+}
+
+circle.node.highlight,
+circle.node.highlight.semihighlight { /* highlight "takes priority" over semihighlight */
+    stroke: red;
+    stroke-width: 1.5px;
+}
+
+circle.node.semihighlight {
+    stroke: red;
+    stroke-width: 1px;
+    stroke-opacity: .75;
+}
+
+line.link {
+    fill: none;
+    stroke: #ddd; /*#9ecae1;*/
+    stroke-width: 1.5px;
+}
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.highlight {
+    font-weight: bold;
+    border-bottom-width: 1px;
+    border-bottom-style: dotted;
+    cursor: help;
+}
+
+.ephemeral {
+    color: #82b446;
+}
+
+.ephemeral > a {
+    border-bottom: 1px dotted #82b446;
+    cursor: pointer;
+}
+
+body {
+    font: 14px sans-serif;
+}
+.axis path, .axis line {
+    fill: none;
+    stroke: black;
+    shape-rendering: crispEdges;
+}
+.axis path{
+    fill: none;
+    stroke: none;
+}
+.bar {
+    fill: steelblue;
+}
+
+.label {
+    text-anchor: middle;
+    font-size: .6em;
+}
+
+.box {
+    background-color: #F8F8FF;
+    border-radius: 6px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+.text {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+    margin: 0;
+}
+
+.play {
+    font-weight: bold;
+}
