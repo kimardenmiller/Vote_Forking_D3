@@ -21,7 +21,7 @@
       enterCenterJitter: 10,
       min: 0,
       currentNode: 0,
-      headLabel: 'Play',
+      headLabel: 'fa-play',
       currentTs: void 0,
       sliderReset: true,
       radiusMeasure: 7,
@@ -34,7 +34,8 @@
         }
       }
     };
-    $scope.message = $sce.trustAsHtml('Press <b><em>Play</em></b> on left to start the visualization.');
+    $scope.message = $sce.trustAsHtml('Press <b><em>Play</em></b> and <b><em>Pause</em></b> controls on left to start and stop,\
+    or you may scrub the visualization using the <b><em>Slider</em></b>.');
     $scope.hovered = function(d) {
       if (d === 'leave') {
         $scope.hover = 'Hover, click or Drag any Node to see more.';
@@ -60,7 +61,7 @@
       if (angular.isDefined(timer)) {
         return $scope.pauseSlider();
       } else {
-        $scope.options.headLabel = 'Pause';
+        $scope.options.headLabel = 'fa-pause';
         forward = true;
         curVal = void 0;
         dir = 1;
@@ -81,7 +82,7 @@
     $scope.pauseSlider = function() {
       if (angular.isDefined(timer)) {
         $interval.cancel(timer);
-        $scope.options.headLabel = 'Play';
+        $scope.options.headLabel = 'fa-play';
         return timer = undefined;
       }
     };

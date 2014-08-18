@@ -103,9 +103,6 @@ forceChart = ( $compile, NodeEmitter, CollapsibleTreeLoader, FlattenVotingTree, 
         links = scope.nodesAndLinks.links if scope.nodesAndLinks.links
         scope.render() if scope.nodesAndLinks.nodes.length > 0
 
-    console.log "Initialized nodesAndLinks: ", scope.flattenedNodesAndLinks
-
-
     scope.link = scope.visSvg
     .selectAll("line.link")
 

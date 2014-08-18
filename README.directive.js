@@ -109,7 +109,6 @@
             }
           }
         };
-        console.log("Initialized nodesAndLinks: ", scope.flattenedNodesAndLinks);
         scope.link = scope.visSvg.selectAll("line.link");
         return scope.render = function() {
           var enterLinks, enterNodes;
@@ -333,6 +332,7 @@
           AnimatingExperiments(scope, enterNodes, scope.node, enterLinks, scope.link);
           if (!scope.options.animateExit) {
             console.log('no animate exit: ');
+            scope.node.exit().remove();
             scope.node.exit().remove();
           } else {
 

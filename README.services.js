@@ -114,10 +114,11 @@
       l = 0;
       recurse(json);
       scope.options.max = links.length + 1;
-      return scope.flattenedNodesAndLinks = {
+      scope.flattenedNodesAndLinks = {
         nodes: nodes,
         links: links
       };
+      return console.log("Initialized nodes And Links: ", scope.flattenedNodesAndLinks);
     };
   };
 

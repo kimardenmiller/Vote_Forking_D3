@@ -85,6 +85,8 @@ FlattenVotingTree = ->
       nodes: nodes
       links: links
 
+    console.log "Initialized nodes And Links: ", scope.flattenedNodesAndLinks
+
 NodeEmitter = ->
   ( scope ) ->
 

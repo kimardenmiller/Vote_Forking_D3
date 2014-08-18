@@ -5,11 +5,12 @@
     <meta charset="utf-8" />
     <title>Vote Forking in Spokenvote</title>
 
-    <!--<link data-require="bootstrap-css@3.1.1" data-semver="3.1.1" rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" />-->
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.css" rel="stylesheet">
     <link rel="stylesheet" href="fire.css"/>
+
     <script data-require="jquery@*" data-semver="2.0.3" src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <!--<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>-->
     <script data-require="d3@*" data-semver="3.4.6" src="//cdnjs.cloudflare.com/ajax/libs/d3/3.4.6/d3.min.js"></script>
     <script data-require="angular.js@*" data-semver="1.2.9" src="http://code.angularjs.org/1.2.9/angular.js"></script>
     <script data-require="angular-resource@*" data-semver="1.2.9" src="http://code.angularjs.org/1.2.9/angular-resource.js"></script>
@@ -24,17 +25,14 @@
 <body>
 <!--<body class="well">-->
 <div ng-controller="FireCtrl">
-    <!-- <ng:include src="'fireflies-ng/fire.html'"></ng:include> -->
     <div style="width: 85%;">
-        <!--<h2 style="margin-top: 0;">Vote Forking in Spokenvote </h2>-->
-        <!--<p>Visualization worked forked from <a href='http://sketchbook.onafloatingrock.com/fireflies/' target='_blank'> Dan Lopuch's Fireflies</a> written in Angular and D3 to model consensus progression through forking in <a href='http://www.spokenvote.org'>Spokenvote</a>.</p>-->
         <div style="width: 960px;">
             <force-chart options='options' hovered='hovered(args)' ></force-chart>
             <div class="form block" >
-                <!--<i class="icon-youtube-play"></i> icon-youtube-play-->
-                <!--<h4 class="play">-->
-                <a href='#' class="play" ng-click='play()' tooltip-placement='right' tooltip='Click to start the conversation.'> {{ options.headLabel }} </a>
-                <input type="range" ng-model="options.currentNode" min='0' max='71' >
+                <a href='#' class="play" ng-click='play()' tooltip-placement='right' tooltip='Click to start and stop the conversation, or use the slider to scrub the timeline.'>
+                    <i class="fa {{ options.headLabel }} fa-lg"></i>
+                </a>
+                <input type="range" ng-model="options.currentNode" min='0' max='78' >
             </div>
             <div class="box">
                 <h4 class='text' ng-show='hover'> {{ hover }}</h4>
