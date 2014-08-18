@@ -1,5 +1,5 @@
 CollapsibleTree = ($resource) ->
-  $resource 'collapsible.json'
+  $resource 'z_collapsible.json'
 
 CollapsibleTreeLoader = (CollapsibleTree, $q) ->
   ->

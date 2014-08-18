@@ -4,7 +4,7 @@
     __indexOf = [].indexOf || function(item) { for (var i = 0, l = this.length; i < l; i++) { if (i in this && this[i] === item) return i; } return -1; };
 
   CollapsibleTree = function($resource) {
-    return $resource('collapsible.json');
+    return $resource('z_collapsible.json');
   };
 
   CollapsibleTreeLoader = function(CollapsibleTree, $q) {
