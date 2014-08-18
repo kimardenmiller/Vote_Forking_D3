@@ -3,7 +3,7 @@ FireCtrl = ( $sce, $scope, $interval ) ->
   $scope.options =
     initialID: 1
     width: 960 # 960 Bl.ocks Default
-    height: 600 # 600 Bl.ocks Default
+    height: 440 # 600 Bl.ocks Default
     exitAnimateStyle:   #When nodes animate out of the force view, we animate them to these css params
       opacity: 0
     enterAnimateStyle:  #Opposite state of the exitAnimateStyle
