@@ -7,7 +7,7 @@
     $scope.options = {
       initialID: 1,
       width: 960,
-      height: 600,
+      height: 440,
       exitAnimateStyle: {
         opacity: 0
       },
