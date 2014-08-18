@@ -385,6 +385,7 @@ forceChart = ( $compile, NodeEmitter, CollapsibleTreeLoader, FlattenVotingTree, 
       unless scope.options.animateExit
         console.log 'no animate exit: '
         scope.node.exit().remove()
+        scope.node.exit().remove()
       else
 
         # Some exit nodes may have already started the exit animation.  Let them be, they'll be removed.

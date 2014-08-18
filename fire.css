@@ -80,3 +80,11 @@ body {
 .play {
     font-weight: bold;
 }
+
+.block .play { display: inline-block; width: 50px; text-align: right; }
+/*.block .icon-youtube-play { display: inline-block; width: 40px; text-align: right; }*/
+.block input {
+    display: inline-block;
+    width: 905px;
+    vertical-align: middle;
+}

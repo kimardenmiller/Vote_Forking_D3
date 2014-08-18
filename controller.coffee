@@ -1,4 +1,4 @@
-FireCtrl = ( $sce, $scope, $interval, CollapsibleTreeLoader, FlattenVotingTree, NodeEmitter ) ->
+FireCtrl = ( $sce, $scope, $interval ) ->
 
   $scope.options =
     initialID: 1
